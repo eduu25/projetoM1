@@ -1,0 +1,77 @@
+body{
+    background-color:  green;
+    
+}
+img{
+    margin-top: 40px;
+    width: 120px;
+}
+header{
+    width: 100%;
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Cardcriaturas{
+    display: flex;
+    margin-top: 50px;
+    width: 500px;
+    background-color: #58ce74;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.Btn{
+    margin-top: 20px;
+}
+h2{
+    color: aliceblue;
+ }
+ h3{
+    color: aliceblue;
+    font-family: monospace;
+ }
+ button{
+     background-color: #58ce74;
+     color: aliceblue;
+     border: aliceblue 2px solid;
+     text-align: center;
+     border-radius: 5px;
+     font-family: monospace;
+     cursor: pointer;
+ }
+ @keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+button:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@media (max-width: 500px){
+    .Cardcriaturas{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    header{
+        margin-top: 70px;
+    }
+}

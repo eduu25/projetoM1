@@ -1,0 +1,35 @@
+body{
+    background-color: #8c021b;
+ 
+ }
+ main{
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ 
+ }
+ h1{
+     color: aliceblue;
+ }
+ p{
+     color: aliceblue;
+ }
+ 
+ img{
+     width: 500px;
+ }
+ button{
+     background-color: yellow;
+     border: none;
+     border-radius: 5px;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+     font-family: monospace;
+ }
+ @media (max-width: 500px){
+    img{
+        width: 150px;
+    }
+}
